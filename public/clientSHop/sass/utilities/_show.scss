@@ -1,0 +1,70 @@
+.show {
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(9,1fr);
+    width: 95%;
+    margin: 0 auto;
+    z-index: 50;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    &_line {
+        height: 90vh;
+        background: $color-white;
+        // background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.show_disable {
+    visibility: hidden;
+}
+
+// INSCRIPTION HIDDEN 
+.disable_iscription {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.disableLine {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.show_anim {animation: un .3s ease-in-out backwards;}
+
+
+
+@keyframes un {
+    0%{
+       transform: translateY(50rem);
+    }
+    100% {
+        transform: translateY(0rem);   
+     }
+}
+
+.show_line:nth-child(1) {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+//   background: url(./../images/form-1.png);
+}
+.show_line:nth-child(2) {
+    // background: url(./../images/form-2.png);
+    animation-delay: .1s;
+}
+.show_line:nth-child(3) {animation-delay: .2s; }
+.show_line:nth-child(4) {animation-delay: .3s; }
+.show_line:nth-child(5) {animation-delay: .4s; }
+.show_line:nth-child(6) {animation-delay: .5s; }
+.show_line:nth-child(7) {animation-delay: .6s; }
+.show_line:nth-child(8) {animation-delay: .7s; }
+
+.show_line:nth-child(9) {
+    animation-delay: .8s;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    // background: url(./../images/form-9.png);
+}

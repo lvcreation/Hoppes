@@ -1,0 +1,59 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease-in .2s;
+}
+
+html {
+    font-size: 80%;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.marge {
+   padding: 0 3rem;  
+}
+
+body {
+    position: relative;
+    background: $color-dark;
+    overflow-x: hidden;
+    font-family:'Times New Roman', Times, serif;
+    // background: linear-gradient(to right,lighten($color-prim,20%),$color-prim);
+}
+body::-webkit-scrollbar{
+    width: 1.2rem;
+    background: darken($color-white,10%);
+    &-thumb{
+        background: rgb(darken($color-white,30%),50%);
+    border-radius: 1rem;
+
+    transition: .3s ease all;
+    &:hover{
+        background: darken($color-white,30%);
+    }
+    }
+}
+
+
+
+@font-face {
+    font-family: young;
+    src: url(./../font/YoungSerif-Regular.ttf);
+}
+
+
+
+
+
+
+

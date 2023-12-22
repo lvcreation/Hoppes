@@ -1,0 +1,45 @@
+.inscription {
+    background: $color-white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 4rem 0;
+    overflow: hidden;
+
+    &_cont-btn {
+        margin-top: 1rem;
+    }
+
+    &_sub {
+        text-transform: uppercase;
+        font-size: 1.5rem;
+    }
+
+    &_frm {
+        width: 70%;
+        margin: 0 auto;
+
+        &-btn {
+            background: $color-second;
+            padding: .5rem 2rem;
+            border: none;
+            border-radius: 8px;
+            color: $color-white;
+            margin-top: .5rem;
+        }
+        & .btn-inscription{
+            background: $color-second;
+            color: $color-white;
+            font-size: 16px;
+            padding: 5px;
+            border-radius: 10px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        #filiere{
+            display: none;
+        }
+    }
+}

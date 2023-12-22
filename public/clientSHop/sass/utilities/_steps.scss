@@ -1,0 +1,36 @@
+.steps {
+    // background: red;
+    // overflow: hidden;
+
+    &_child {
+            position: absolute;
+            top: 8rem;
+            width: 80%;
+            transition: all .3s ease-in-out;
+    }
+
+    &_first {
+        // background: blue;
+        left: 4rem;
+    }
+
+    &_number {
+        background: $color-second;
+        color: $color-white;
+        padding: .2rem 1rem;
+        border-radius: 50%;
+        display: inline;
+    }
+
+    &_cont {
+        margin: 1rem 0;
+    }
+
+    // &_second {
+    //     left: 40rem;
+    // }
+
+    // &_third {
+    //     left: -40rem;
+    // }
+}

@@ -1,0 +1,200 @@
+@keyframes scaling {
+  0%{
+    opacity: 0;
+    transform: translateY(-100rem);
+  }
+  50%{
+     transform: translateY(0rem);
+     opacity: .9;
+     background: $color-dark;
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0rem) translateX(-50%);
+  }
+}
+
+@keyframes bgRandome {
+  0%,35%{
+    
+    background: rgb(darken($color-prim,10%),70%) url(./../images/hopes.jpg)center/contain;
+     background-blend-mode: multiply;
+  }
+  50%,75%{
+     background: rgb(darken($color-prim,10%),70%) url(./../images/dev.jpg)center/contain;
+    
+     background-blend-mode: multiply;
+  }
+  90%,100%{
+    //  background: rgb(darken($color-prim,10%),70%) url(./../images/call.jpg)center/contain;
+     background: rgb(darken($color-prim,10%),70%) url(./../images/graphic.jpg)center/100%;
+     background-blend-mode: multiply;
+  }
+}
+
+
+@keyframes loadingFormat {
+    0%{
+        top: -5%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        height: 5vw;
+        width: 1vw;
+        filter:blur(5px);
+        background: $color-white;
+        color: $color-white;
+    }
+    10%{
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        height: 5vw;
+        width: 1vw;
+        filter:blur(5px);
+        background: $color-white;
+        color: $color-white;
+    }
+     10%{
+        top: 0%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        height: 6vw;
+        width: 1vw;
+        filter:blur(5px);
+        background: $color-white;
+        color: $color-white;
+    }
+    20%{
+       top: 0%;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50%;
+      height: 7vw;
+      width: 1vw;
+      filter:blur(5px);
+      background: $color-white;
+      color: $color-white;
+    }
+    35%{
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        height: 5vw;
+        width: 5vw;
+        filter:blur(5px);
+        background: $color-white;
+        color: $color-white;
+    }
+    50%{
+        top: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 50%;
+        height: 5vw;
+        width: 2vw;
+        filter:blur(5px);
+        background: $color-white;
+        color: $color-white;
+    }
+    70%{
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        height: 5vw;
+        width: 5vw;
+        filter:blur(5px);
+         transform: translateX(-50%) ;
+         opacity: .5;
+         background: $color-white;
+         color: $color-white;
+    }
+    80%{
+        top: 45%;
+        left: 50%;
+        border-radius: 45%;
+        height: 5vw;
+        width: 3vw;
+        transform: translateX(-50%);
+        filter:blur(5px);
+         background: $color-white;
+         color: $color-white;
+
+    }
+    
+    100%{ 
+        top: 0%;
+        left: 0;
+        background: $color-white;
+        color: $color-white;
+    }
+}
+
+@keyframes floating {
+  0%{
+    transform: translateY(-5%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}
+
+@keyframes starInfinite {
+    0%{
+        transform: scale(1);
+        background: lighten($color-prim,10%);
+        box-shadow: 0 0 20px lighten($color-prim,50%);
+    }
+    100%{
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+ @keyframes navLog {
+        0% {
+            opacity: 0;
+            transform: translate(8rem,1rem);
+        }
+
+        100% {
+            transform: translate(0rem,1rem);
+            opacity: 1;
+        }
+    }
+
+    @keyframes leftLinks {
+        0% {
+            opacity: 0;
+            transform: translate(-8rem,1rem);
+        }
+
+        100% {
+            transform: translateX(0rem,1rem);
+            opacity: 1;
+        }
+    }
+
+
+    
+@keyframes global
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+
+    50%
+    {
+        transform: rotate(180deg);
+    }
+
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}

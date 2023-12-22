@@ -1,0 +1,286 @@
+#categorie{
+    width: 100%;
+    background-color: #181826;
+    /* height: 100vh; */
+}
+#produit{
+    width: 100%;
+    background-color: #181826;
+    /* height: 100vh; */
+}
+.cat-titre{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin: 100px 0;
+}
+.add-cat{
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+}
+.add-cat input{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.306);
+    position: relative;
+    margin: 10px 0;
+}
+.add-cat label{
+    width: 35%;
+    height: 60px;
+    padding-left: 10px;
+    background-color: transparent;
+    color: white;
+    line-height: 30px;
+    border: none;
+    margin: 10px 0;
+}
+.add-cat select{
+    width: 64%;
+    height: 60px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.306);
+    /* border-radius: 10px; */
+    margin: 10px 0;
+}
+.add-cat input:focus{
+    border: 2px solid rgb(255, 255, 255);
+    transition:border 2s ease;
+    border-radius: 10px;
+}
+.add-cat button{
+    display: block;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(34, 196, 237);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 100px;
+    cursor: pointer;
+}
+.add-cat button:hover{
+    background-color: rgba(34, 196, 237, 0.773);
+
+}
+.success{
+    width: 60%;
+    padding: 15px 0;
+    margin: 0 auto;
+    background-color: green;
+    color: white;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+}
+.diso{
+    width: 80%;
+    display: block;
+    padding: 15px 30px;
+    margin: 0px auto;
+    background-color: rgb(231, 69, 69);
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    text-align: center;
+}
+#contenu{
+    padding: 100px 60px;
+    background-color:#181826 ;
+    overflow: hidden;
+    min-height: 100vh;
+}
+#contenu h1{
+    text-align: center;
+    font-family: 'cooper black';
+    text-transform: uppercase;
+    /* font-size:18px; */
+}
+#contenu h2{
+    text-align: center;
+    font-family: 'cooper black';
+    text-transform: uppercase;
+    color: red;
+}
+#contenu h3{
+    margin-top: 10px;
+    color: red;
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'cooper black';
+
+}
+.liste{
+    width: 100%;
+    margin: 60px auto;
+}
+.liste ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.liste ul li a{
+    padding: 6px 15px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 2em;
+    font-family: 'arial';
+    border: 2px solid darkturquoise;
+    background-color: transparent;
+}
+.liste ul li a:hover{
+    text-decoration: none;
+    background-color: darkturquoise;
+    border: 2px solid white;
+}
+.etudiants{
+    width: 100%;
+    height: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.etudiants:hover{
+    box-shadow: 2px 2px 10px darkcyan;
+}
+.etudiants h2{
+    text-align: center;
+    font-family: 'cooper black';
+    color: white;
+    
+    margin: 20px;
+}
+.etudiants h4{
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.etudiants h4 span{
+    color: cornflowerblue;
+    text-decoration: double underline;
+}
+.photoE img{
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 7px white,2px 2px 10px yellow;
+}
+.tableEtudiant{
+    width: 100%;
+    border: 2px solid white;
+    margin: 50px 0;
+}
+.tableEtudiant thead{
+    height: 50px;
+    padding: 15px 0;
+    color: cornflowerblue;
+    background-color: #fff;
+    font-size: 1.3em;
+}
+.tableEtudiant thead th{
+    text-align: center;
+}
+.tableEtudiant tbody{
+    height: 60px;
+}
+.btn-submit{
+    display: block;
+    width: 40%;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid darkturquoise;
+    border-radius: 15px;
+    margin: 20px auto;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 0;
+}
+.btn-submit:hover,.EcolageDetail:hover{
+    color: black;
+    /* border: 2px solid white; */
+    background-color: #fff;
+
+}
+
+/* eto n n etudiant par jour */
+.sousmen{
+    margin:-5% 0;
+}
+
+
+
+
+/* fin etudiant par jour */
+.EcolageDetail{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    background-color: transparent;
+    border: 2px solid darkturquoise;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 0;
+    
+}
+.recherche input{
+    width: 20%;
+    height: 48px;
+    background-color: transparent;
+    border-radius: 10px;
+    transition: 2s ease;
+    padding-left: 10px;
+    color: white;
+}
+.recherche input:focus{
+    border: 1px solid white;
+    width: 80%;
+
+}
+.paginatelink:hover{
+    text-decoration: none;
+}
+/* .table-responsive{
+    overflow-x: scroll;
+    background-color: #fff;
+} */
+
+/* style inscription total */
+.liste-items{
+    list-style: none; cursor: pointer; font-size: 1.2rem; background: white; width: 18%; text-align: center;
+    margin-top: 5px;
+}
+.liste-items:hover .sous-listes-items{
+    display: block;
+}
+.sous-listes-items{
+    list-style: none; display: none; 
+}
+.sous-items{
+    padding: 0 10px;
+}
+.sous-items a{
+    color: gray; 
+}
+/* fin inscription total */

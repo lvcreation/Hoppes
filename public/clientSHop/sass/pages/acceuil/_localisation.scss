@@ -1,0 +1,52 @@
+.localisation {
+    // background:white;
+    padding: 2rem;
+    margin-bottom: 4rem;
+
+    &_img {
+        width: 100%;
+    }
+
+
+    &_title {
+        margin: 3rem 0;
+    }
+
+    &_content {
+        display: flex;
+    }
+
+    &_desc {
+        flex: 1;
+        padding: 5rem 3rem;
+        background-image: url('./../images/contact1.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+
+        &-btn {
+            background: $color-white;
+            margin: 2rem 0;
+        }
+
+        &-content {
+            background: #023430b2;
+            padding: 3rem 1rem;
+            border-radius: 30px;
+            width: 55%;
+            color: $color-white;
+            // backdrop-filter: blur(2px);
+        }
+    }
+
+    &_iframe{
+        flex: 1;
+        border-radius: 1rem;
+        height: auto;
+        background: $color-second;
+    }
+}
+
+#map {
+    height: 100%;
+}

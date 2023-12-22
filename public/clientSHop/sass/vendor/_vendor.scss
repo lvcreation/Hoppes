@@ -1,0 +1,15 @@
+@mixin tranform ($prop){
+    transform: $prop;
+    -webkit-transform: $prop;
+    -moz-transform: $prop;
+    -ms-transform: $prop;
+    -o-transform: $prop;
+}
+
+@mixin animation ($prop){
+   animation: $prop;
+   -moz-animation: $prop;
+   -o-animation: $prop;
+   -webkit-animation: $prop;
+}
+

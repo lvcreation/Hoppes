@@ -1,0 +1,27 @@
+.btn {
+    padding: .5rem 2rem;
+    border-radius: 5px;
+
+    &_header {
+        background: white;
+        margin: 3rem;
+        border-bottom: solid 3px transparent;
+        transition: all .3s ease-in-out;
+
+        &-arrow {
+            margin-left: .5rem;
+        }
+
+        &:hover {
+            border-bottom: solid 3px $color-prim;
+            transform: translateY(-3px);
+            box-shadow: -4px 5px 6px 1px #0000009c;
+        }
+
+        &:hover &-arrow{
+            margin-left: 15px;
+            color: $color-prim;
+        }
+    }
+
+}
